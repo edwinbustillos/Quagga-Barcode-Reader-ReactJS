@@ -1,0 +1,36 @@
+body{
+  background:#f4f4f4;
+  background-image: url("../resource/black.png");
+ 
+}
+#ContMain{
+  background:#f4f4f4;
+  padding:15px;
+}
+.border-3 {
+    border-width:3px !important;
+}
+.btn-warning {
+  border:1px solid rgb(0, 83, 190);
+  font-weight: bold;
+  }
+.btn-dark {
+  border:1px solid rgb(109, 109, 109);
+}
+#barcode-scanner video, canvas {
+  width: 100%;
+  height: auto;
+  background:#000;
+}
+
+#barcode-scanner video.drawingBuffer, canvas.drawingBuffer {
+  display: none;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
